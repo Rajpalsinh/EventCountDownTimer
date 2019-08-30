@@ -13,7 +13,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String EVENT_DATE_TIME = "2019-08-31 10:30:00";
+    private String EVENT_DATE_TIME = "2020-12-31 24:00:00";
     private String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
     private LinearLayout linear_layout_1, linear_layout_2;
     private TextView tv_days, tv_hour, tv_minute, tv_second;
