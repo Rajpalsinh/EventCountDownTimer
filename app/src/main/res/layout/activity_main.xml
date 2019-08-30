@@ -28,7 +28,11 @@
         android:id="@+id/linear_layout_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/black"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@android:color/transparent"
         android:layout_below="@+id/linear_layout_1"
         android:visibility="visible">
 
@@ -36,6 +40,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_border"
             android:orientation="vertical">
 
             <TextView
@@ -44,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="00"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -54,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Days"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="normal" />
         </LinearLayout>
@@ -63,6 +69,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_border"
             android:orientation="vertical">
 
             <TextView
@@ -71,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="00"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -81,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Hour"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="normal" />
         </LinearLayout>
@@ -90,6 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_border"
             android:orientation="vertical">
 
             <TextView
@@ -98,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="00"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -108,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Minute"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="normal" />
         </LinearLayout>
@@ -117,6 +127,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_border"
             android:orientation="vertical">
 
             <TextView
@@ -125,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="00"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -135,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Second"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20dp"
                 android:textStyle="normal" />
         </LinearLayout>
